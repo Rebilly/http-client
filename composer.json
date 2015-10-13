@@ -1,0 +1,40 @@
+{
+  "name": "rebilly/http-client",
+  "description": "HTTP Client",
+  "keywords": [],
+  "homepage": "https://github.com/Rebilly/http-client/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rebilly",
+      "homepage": "https://github.com/orgs/Rebilly/"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "psr/http-message": "~1.0",
+    "guzzlehttp/psr7": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rebilly\\HttpClient\\": ["src"]
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.7",
+    "fzaninotto/faker": "~1.5",
+    "fabpot/php-cs-fixer": "~1.10",
+    "satooshi/php-coveralls": "dev-master"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Rebilly\\HttpClient\\": ["tests"]
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
