@@ -1,5 +1,7 @@
 # HTTP Client
 
+[![Build Status](https://img.shields.io/travis/Rebilly/http-client/master.svg?style=flat-square)](https://travis-ci.org/Rebilly/http-client)
+[![Coverage Status](https://coveralls.io/repos/Rebilly/http-client/badge.svg?branch=master&service=github)](https://coveralls.io/github/Rebilly/http-client?branch=master)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/Rebilly/http-client/master/LICENSE)
 
 ## Installation
