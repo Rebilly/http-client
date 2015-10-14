@@ -60,15 +60,10 @@ class CurlAdapter implements Adapter
     }
 
     /**
-     * @param Request $request
-     * @param Response $response
-     *
-     * @return Response
+     * {@inheritdoc}
      */
-    public function __invoke(Request $request, Response $response)
+    public function __invoke(Request $request, Response $response, array $options = [])
     {
-        $options = [];
-
         // Headers
         $headers = [];
         foreach ($request->getHeaders() as $name => $values) {
