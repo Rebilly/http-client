@@ -24,8 +24,9 @@ interface Adapter
     /**
      * @param Request $request
      * @param Response $response
+     * @param array $options
      *
      * @return Response
      */
-    public function __invoke(Request $request, Response $response);
+    public function __invoke(Request $request, Response $response, array $options = []);
 }
