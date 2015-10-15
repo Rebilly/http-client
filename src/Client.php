@@ -26,11 +26,11 @@ use RuntimeException;
  * @see Client::__call()
  * @see Client::send()
  *
- * @method Response get($path, $params = [], $headers = [], $options = [])
- * @method Response head($path, $params = [], $headers = [], $options = [])
- * @method Response post($payload, $path, $params = [], $headers = [], $options = [])
- * @method Response put($payload, $path, $params = [], $headers = [], $options = [])
- * @method Response delete($path, $params = [], $headers = [], $options = [])
+ * @method Response get($uri, $headers = [], $options = [])
+ * @method Response head($uri, $headers = [], $options = [])
+ * @method Response post($payload, $uri, $headers = [], $options = [])
+ * @method Response put($payload, $uri, $headers = [], $options = [])
+ * @method Response delete($uri, $headers = [], $options = [])
  *
  * @author Veaceslav Medvedev <veaceslav.medvedev@rebilly.com>
  * @version 0.1
