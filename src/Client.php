@@ -170,7 +170,7 @@ final class Client
      *
      * @return Request
      */
-    private function createRequest($method, $uri, $payload, array $headers = [])
+    public function createRequest($method, $uri, $payload, array $headers = [])
     {
         return new GuzzleRequest($method, $uri, $headers, $payload);
     }
@@ -178,10 +178,15 @@ final class Client
     /**
      * Factory method to create a new Response object.
      *
+     * @param int $status
+     * @param array $headers
+     * @param mixed $payload
+     * @param string|null $reason
+     *
      * @return Response
      */
-    private function createResponse()
+    public function createResponse($status = 200, array $headers = [], $payload = null, $reason = null)
     {
-        return new GuzzleResponse();
+        return new GuzzleResponse($status, $headers, $payload, '1.1', $reason);
     }
 }
