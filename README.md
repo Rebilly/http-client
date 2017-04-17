@@ -1,4 +1,4 @@
-# HTTP Client
+# ![Rebilly](https://avatars3.githubusercontent.com/u/6365848?v=3&s=28) HTTP Client
 
 [![Build Status](https://img.shields.io/travis/Rebilly/http-client/master.svg?style=flat-square)](https://travis-ci.org/Rebilly/http-client)
 [![Coverage Status](https://coveralls.io/repos/Rebilly/http-client/badge.svg?branch=master&service=github)](https://coveralls.io/github/Rebilly/http-client?branch=master)
